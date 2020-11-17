@@ -1,0 +1,11 @@
+
+public class Aluno {
+	private int matricula;
+	
+	public Aluno(String n, char s, int m) {
+		nome = n;
+		sexo = s;
+		matricula = m;		
+	}
+
+}

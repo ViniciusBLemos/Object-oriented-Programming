@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+public class Lista {
+	 ArrayList<Nodo>lista = new ArrayList<Nodo>();
+	 public int insert(int posicao, Nodo n) {
+		 this.lista.add(posicao, n);
+		 if(this.lista.get(posicao).valor == n.valor) {
+			 return 1;
+		 }
+		 return 0;
+	 }
+	 
+	 public Nodo get(int posicao) {
+		 return lista.get(posicao);
+	 }
+}

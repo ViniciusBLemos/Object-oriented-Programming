@@ -1,0 +1,15 @@
+public class Fila extends Lista{
+	Lista lista_0 = new Lista();
+	public int enqueue(Nodo n) {
+		return this.lista_0.insert(0, n);
+	}
+	
+	public Nodo dequeue() {
+		int tamanhoLista = this.lista_0.length();
+		Nodo nodo_0 = this.lista_0.get(tamanhoLista - 1);
+		if(this.lista_0.delete(tamanhoLista - 1) == 1) {
+			return nodo_0;
+		}
+		return null;
+	}
+}

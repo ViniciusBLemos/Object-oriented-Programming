@@ -1,0 +1,8 @@
+public class Nodo {
+	public int valor;
+	public Nodo prox;
+	
+	public Nodo(int v) {
+		valor = v;
+	}
+}

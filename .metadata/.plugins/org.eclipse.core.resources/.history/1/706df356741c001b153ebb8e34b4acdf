@@ -1,0 +1,7 @@
+public class Pilha {
+	private Nodo topo = null;
+	
+	public Pilha() {}
+	
+	public
+}

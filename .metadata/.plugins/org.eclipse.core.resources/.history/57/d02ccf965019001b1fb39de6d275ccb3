@@ -1,0 +1,11 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Aluno aluno_1 = new Aluno("Vinicius", 25, 1);
+		aluno_1.imprimir();
+		
+	}
+
+}

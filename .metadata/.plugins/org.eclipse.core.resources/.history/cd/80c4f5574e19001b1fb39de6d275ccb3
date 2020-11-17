@@ -1,0 +1,21 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Fruta banana = new Fruta(100, 10);
+		//Fruta laranja = new Fruta(200, 10);
+		//System.out.println(banana.totalCalorias());
+		//System.out.println(laranja.totalCalorias());
+		Pessoa pessoa_1 = new Pessoa("Vinicius", 25);
+		
+		System.out.println(pessoa_1.getNroPessoas());
+		
+		Pessoa pessoa_2 = new Pessoa("Naty", 33);
+		
+		System.out.println(pessoa_2.getNroPessoas());
+		
+	}
+
+}

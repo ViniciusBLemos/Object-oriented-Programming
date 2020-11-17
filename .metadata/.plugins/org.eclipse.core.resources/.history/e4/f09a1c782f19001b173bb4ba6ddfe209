@@ -1,0 +1,9 @@
+
+public class Fruta {
+	 private int gramas;
+	 private int caloriasPorGrama;
+	
+	public int totalCalorias() {
+		return (gramas*caloriasPorGrama);
+	}
+}

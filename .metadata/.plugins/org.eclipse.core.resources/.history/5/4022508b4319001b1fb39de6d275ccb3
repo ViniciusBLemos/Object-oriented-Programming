@@ -1,0 +1,19 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Fruta banana = new Fruta(100, 10);
+		
+		Fruta laranja = new Fruta(200, 10);
+		
+	
+		
+		System.out.println(banana.totalCalorias());
+		
+		System.out.println(laranja.totalCalorias());
+		
+	}
+
+}

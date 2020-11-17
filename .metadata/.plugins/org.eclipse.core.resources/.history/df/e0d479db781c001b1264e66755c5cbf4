@@ -1,0 +1,26 @@
+public class EstruturaDeDadosLineares {
+	
+	public static void main(String[] args) {
+		Nodo nodo_0 = new Nodo(0);
+		Nodo nodo_1 = new Nodo(1);
+		Nodo nodo_2 = new Nodo(2);
+		Nodo nodo_3 = new Nodo(3);
+		Nodo nodo_4 = new Nodo(4);
+		Nodo nodo_5 = new Nodo(5);
+		Pilha pilha_0 = new Pilha();
+		Fila fila_0 = new Fila();
+		
+		pilha_0.push(nodo_0);
+		pilha_0.push(nodo_1);
+		pilha_0.push(nodo_2);
+		pilha_0.push(nodo_3);
+		pilha_0.push(nodo_4);
+		pilha_0.push(nodo_5);
+		
+		Nodo nd = pilha_0.pop();
+		System.out.println(nd.valor);
+		
+		Nodo nd_1 = pilha_0.pop();
+		System.out.println(nd_1.valor);
+	}
+}

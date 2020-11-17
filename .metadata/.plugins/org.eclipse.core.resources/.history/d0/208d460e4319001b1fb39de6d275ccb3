@@ -1,0 +1,20 @@
+
+public class Pessoa {
+	
+	private String nome;
+	private int idade;
+	private static int nroPessoas;
+	
+	public Pessoas(String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+		this.nroPessoas ++;
+	
+	}
+	
+	public int getNroInsrancias() {
+		return nroPessoas;
+	}
+}
+
+

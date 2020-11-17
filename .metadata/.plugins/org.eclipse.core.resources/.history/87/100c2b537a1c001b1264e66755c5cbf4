@@ -1,0 +1,14 @@
+public class Pilha extends Lista{
+	//Lista lista_0 = new Lista();
+	public int push(Nodo n) {
+		return super.insert(0, n);
+	}
+	
+	public Nodo pop() {
+		Nodo nodo_0 = super.get(0);
+		if(super.delete(0) == 1) {
+			return nodo_0;
+		}
+		return null;		
+	}
+}

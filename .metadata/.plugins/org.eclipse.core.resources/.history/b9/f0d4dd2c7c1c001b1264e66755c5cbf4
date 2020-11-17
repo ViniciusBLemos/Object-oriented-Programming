@@ -1,0 +1,14 @@
+public class Fila extends Lista{
+	public int enqueue(Nodo n) {
+		return super.insert(0, n);
+	}
+	
+	public Nodo dequeue() {
+		int tamanhoLista = super.length();
+		Nodo nodo_0 = super.get(tamanhoLista - 1);
+		if(super.delete(tamanhoLista - 1) == 1) {
+			return nodo_0;
+		}
+		return null;
+	}
+}

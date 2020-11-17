@@ -1,0 +1,11 @@
+
+public class Aluno {
+	private int matricula;
+	
+	
+	public Aluno(String nome, int idade, int matricula) {
+		super(nome, idade);
+		this.matricula = matricula;
+	}
+
+}

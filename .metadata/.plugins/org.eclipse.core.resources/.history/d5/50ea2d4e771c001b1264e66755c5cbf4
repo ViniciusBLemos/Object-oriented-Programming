@@ -1,0 +1,8 @@
+public class EstruturaDeDadosLineares {
+	
+	public static void main(String[] args) {
+		Nodo nodo_0 = new Nodo();
+		Pilha pilha_0 = new Pilha();
+		Fila fila_0 = new Fila();
+	}
+}
